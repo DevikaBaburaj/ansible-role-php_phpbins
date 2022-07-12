@@ -1,0 +1,9 @@
+galaxy_info:
+  role_name: php_phpbins
+  author: DevikaKB
+  description: PHP demo role
+
+  min_ansible_version: 1.2
+
+  galaxy_tags: [php, web, dev, binaries, modules]
+dependencies: []

@@ -1,0 +1,7 @@
+---
+  - name: Install PHP and required extensions
+    ansible.builtin.apt:
+      name: "{{ item }}"
+      state: latest
+      update_cache: yes
+    loop: "{{ php_modules }}"
